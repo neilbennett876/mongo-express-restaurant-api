@@ -34,7 +34,7 @@ app.listen(3000, () => console.log("app is listening on port 3000"))
 });
 
 //get
-app.get("/", (req, res) => res.status(200).send("Hey class!"))
+app.get("/", (req, res) => res.status(200).send("Here is my API on AWS"))
 
 //post
 app.post("/", (req, res) => {
